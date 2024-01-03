@@ -1,0 +1,6 @@
+# ignorer le fichier Logo et image qui n'est qu'une banque d'image pour le projet
+
+**/Logo et image
+
+# Ignore files all files with .log
+*.log
