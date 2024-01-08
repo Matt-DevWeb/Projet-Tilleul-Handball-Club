@@ -21,39 +21,155 @@ h1 {
     color: #26c211f0;
     line-height: 16px;
     outline: none;
+    text-shadow: 0 0 8px #26c211f0;
 }
 
-.ham {
+#main-nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #111216;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+}
+#nav-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-logo img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.dropdown-team {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+}
+.dropdown-team #button-nav-dropdown {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #26c211f0;
+    font-size: 18px;
+    font-weight: 500;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    transition: transform 400ms;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    transition: 0.3s;
+    background-color: #0f1013;
+    border-radius: 35px;
+    padding: 0 15px;
 }
-.hamRotate.active {
-    transform: rotate(45deg);
+
+.dropdown-team #button-nav-dropdown:hover {
+    background-color: #1a1b1f;
 }
-.hamRotate180.active {
-    transform: rotate(180deg);
+.dropdown-team #button-nav-dropdown span {
+    margin: 0 5px 0 5px;
 }
-.line {
-    fill: none;
-    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: #26c211f0;
-    stroke-width: 5.5;
-    stroke-linecap: round;
+.dropdown-team #button-nav-dropdown svg {
+    width: 15px;
+    height: 15px;
 }
-.ham1 .top {
-    stroke-dasharray: 40 139;
+.dropdown-calendar {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
 }
-.ham1 .bottom {
-    stroke-dasharray: 40 180;
+.dropdown-calendar #button-nav-dropdown {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #26c211f0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0f1013;
+    border-radius: 35px;
+    padding: 0 15px;
 }
-.ham1.active .top {
-    stroke-dashoffset: -98px;
+
+.dropdown-calendar #button-nav-dropdown:hover {
+    background-color: #1a1b1f;
 }
-.ham1.active .bottom {
-    stroke-dashoffset: -138px;
+.dropdown-calendar #button-nav-dropdown a {
+    margin: 0 5px 0 5px;
+    color: #26c211f0;
+    text-decoration: none;
+}
+.dropdown-partner {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+}
+.dropdown-partner #button-nav-dropdown {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #26c211f0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0f1013;
+    border-radius: 35px;
+    padding: 0 15px;
+}
+
+.dropdown-partner #button-nav-dropdown:hover {
+    background-color: #1a1b1f;
+}
+.dropdown-partner #button-nav-dropdown a {
+    margin: 0 5px 0 5px;
+    color: #26c211f0;
+    text-decoration: none;
+}
+.dropdown-contact {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+}
+.dropdown-contact #button-nav-dropdown {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #26c211f0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0f1013;
+    border-radius: 35px;
+    padding: 0 15px;
+}
+
+.dropdown-contact #button-nav-dropdown:hover {
+    background-color: #1a1b1f;
+}
+.dropdown-contact #button-nav-dropdown a {
+    margin: 0 5px 0 5px;
+    color: #26c211f0;
+    text-decoration: none;
 }
