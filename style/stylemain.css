@@ -173,3 +173,16 @@ h1 {
     color: #26c211f0;
     text-decoration: none;
 }
+
+section,
+aside,
+main {
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
