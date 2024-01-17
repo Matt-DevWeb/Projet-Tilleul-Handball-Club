@@ -4,3 +4,9 @@
 
 # Ignore files all files with .log
 *.log
+
+**/node_modules
+
+**/package-lock.json
+
+**/package.json
